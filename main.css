@@ -5,3 +5,8 @@ p {
    font-size: 24px;
    text-align: left;
 }
+li {
+    color: blue;
+    font-size: 16px;
+    text-align: left;
+}
