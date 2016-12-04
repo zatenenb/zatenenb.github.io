@@ -13,4 +13,5 @@ li {
 body {
     background-color: darkblue;
     color: white;
+    background-image: url("background.jpg");
 }
