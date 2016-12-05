@@ -22,7 +22,24 @@ h2 {
     border-left-color: red;
 
 }
+a:link {
+    color: darkblue;
+}
 
+/* visited link */
+a:visited {
+    color: darkblue;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: white;
+}
 body {
 
     color: white;
