@@ -13,8 +13,8 @@ li {
 h1 {
     border-left-style: solid;
     border-left-width: 6px;
-    border-left-color: blue;
-    background-color: lightblue;
+    border-left-color: red;
+    background-color: pink;
 }
 
 body {
