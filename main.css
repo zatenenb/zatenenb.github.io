@@ -13,6 +13,7 @@ li {
 h1 {
     border-left-style: solid;
     border-color: red;
+    background-color: pink;
 }
 
 body {
