@@ -10,6 +10,11 @@ li {
     font-size: 16px;
     text-align: left;
 }
+h1 {
+    border-left-style: solid;
+    border-color: red;
+}
+
 body {
 
     color: white;
