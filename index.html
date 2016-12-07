@@ -22,10 +22,14 @@ li:last-child {
 
 li a {
     display: block;
-    color: yellow;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+li a:not(.active) {
+	color: lightgrey;
 }
 
 li a:hover:not(.active) {
