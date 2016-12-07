@@ -2,6 +2,35 @@
 <!doctype html>
 <html>
 <head>
+  <style>
+	ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+  </style>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
 	</script>
 	<title>Zach Tenenbaum's Website</title>
@@ -10,19 +39,24 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+
+
 	<a href = "https://www.facebook.com/zach.tenenbaum.1" class = "fa fa-facebook-official" style="font-size:36px;"></a>
   <a href= "https://www.instagram.com/ztenenbaum/?hl=en" class = "fa fa-instagram" style="font-size:36px;"></a>
-	<h1 class = "solid">About Me</h1>
-  <p>I was born in North Carolina, specifically UNC hospital, which is why I've been a UNC sports fan for as long as I can remember. I moved to Albany when I was 5, and have lived there ever since. I learned to play hockey when I was little, and I played it up until highschool, when I started to wrestle instead. I wrestled all through highschool and I finished my senior year with a 45-12 record and a second place finish at sectionals. I enrolled in SUNY Buffalo this fall, and so far, so good. My major is Computer Science, and I'm loving every second of it. I'm 18 years old, and I have no intention of slowing down.
 
-    <h2 class = "solid">Some of the things I like to do:</h2>
-    <ul>
-      <li>3d modeling</li>
-      <li>play sports of any kind</li>
-      <li>play video games with friends</li>
-      <li>watch movies with my family</li>
-      <li>eat. Like a lot.</li>
-    </ul>
+	<ul>
+		<li> <a class="active" href="#home">Home</a></li>
+		<li><a class ="active" href="#contact">Contact</a></li>
+		<li><a class ="active" href="#aboutme">About Me</a>/li>
+
+	</ul>
+
+	<h1 class = "solid">About Me</h1>
+
+	<p>I was born in North Carolina, specifically UNC hospital, which is why I've been a UNC sports fan for as long as I can remember. I moved to Albany when I was 5, and have lived there ever since. I learned to play hockey when I was little, and I played it up until highschool, when I started to wrestle instead. I wrestled all through highschool and I finished my senior year with a 45-12 record and a second place finish at sectionals. I enrolled in SUNY Buffalo this fall, and so far, so good. My major is Computer Science, and I'm loving every second of it. I'm 18 years old, and I have no intention of slowing down.
+
+    <!-- <h2 class = "solid">Some of the things I like to do:</h2> -->
+
   </p>
 </body>
 </html>
