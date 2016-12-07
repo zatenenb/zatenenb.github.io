@@ -1,13 +1,58 @@
 <!doctype html>
 <html>
 <head>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:not(.active) {
+color: lightgrey;
+}
+
+li a:hover:not(.active) {
+  background-color: black;
+
+}
+
+.active {
+  background-color: #4CAF50;
+}
+</style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
 	</script>
 	<title>Contact Zach</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<link rel="stylesheet" type="text/css" href="main.css" />
 </head>
 <body>
+  <ul>
+		<li> <a class="inactive" href="https://zatenenb.github.io/">Home</a></li>
+		<li><a class ="active" href="https://zatenenb.github.io/contact.html">Contact</a></li>
+		<li><a class ="inactive" href="https://zatenenb.github.io/about.html">About Me</a></li>
+
+	</ul>
   <h1 class = "solid">Contact</h1>
   <p>I was born in North Carolina, specifically UNC hospital, which is why I've been a UNC sports fan for as long as I can remember. I moved to Albany when I was 5, and have lived there ever since. I learned to play hockey when I was little, and I played it up until highschool, when I started to wrestle instead. I wrestled all through highschool and I finished my senior year with a 45-12 record and a second place finish at sectionals. I enrolled in SUNY Buffalo this fall, and so far, so good. My major is Computer Science, and I'm loving every second of it. I'm 18 years old, and I have no intention of slowing down.
   </p>
