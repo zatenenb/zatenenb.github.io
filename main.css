@@ -29,6 +29,13 @@ h3 {
     border-left-color: red;
 
 }
+h4 {
+    text-align: left;
+    border-left-style: solid;
+    border-left-width: 6px;
+    border-left-color: red;
+
+}
 a:link {
     color: darkblue;
 }
