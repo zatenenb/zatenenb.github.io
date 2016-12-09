@@ -23,10 +23,10 @@ h2 {
 
 }
 h3 {
-    text-align: right;
-    border-right-style: solid;
-    border-right-width: 6px;
-    border-right-color: red;
+    text-align: left;
+    border-left-style: solid;
+    border-left-width: 6px;
+    border-left-color: red;
 
 }
 a:link {
